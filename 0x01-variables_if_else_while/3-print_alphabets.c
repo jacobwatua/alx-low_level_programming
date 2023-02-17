@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - The entry point
- * @args - nor arguents passed
+ * @args - no arguents passed
  *
- * Description: prints an alphabet in lower and upper cases using putchar in a for loop
+ * Description: prints an alphabet in lower,
+ * and upper cases using putchar in a for loop.
  * Return: 0 if successful
 */
 int main(void)
