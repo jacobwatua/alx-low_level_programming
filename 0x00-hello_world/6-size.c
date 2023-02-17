@@ -1,14 +1,17 @@
 #include <stdio.h>
-/*
-* main-Entry point
+/**
+* main - This is the main entry point
+* @args - The function does not accept any arguements
 *
-* Return: 0 if successful
+* Description: The function prints the value of each data type in bytes
+*Return: 0 if successfful
 */
 int main(void)
 {
-printf("Size of an int: %lu byte(s)\n", sizeof(int));
-printf("Size of a long int: %lu bytes\n", sizeof(long int));
-printf("Size of a long long int: %lu bytes\n", sizeof(long long int));
-printf("Size of a float: %lu bytes\n", sizeof(float));
+printf("Size of a char: %d byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(int));
+printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+printf("Size of a float: %zu byte(s)\n", sizeof(float));
 return (0);
 }
