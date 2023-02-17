@@ -1,10 +1,8 @@
 #include <stdio.h>
 /*
- * main- function
- @void -accepts zero arguements
+ * main-This is the entry point
  *
- * Description: This function uses pritf to print a string
- * Return: The function returns 0
+ * Return: 0 if successful
  */
 int main(void)
 {
