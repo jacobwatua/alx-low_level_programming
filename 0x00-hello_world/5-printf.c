@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main function
+ * main- function
  @void -accepts zero arguements
  *
  * Description: This function uses pritf to print a string
