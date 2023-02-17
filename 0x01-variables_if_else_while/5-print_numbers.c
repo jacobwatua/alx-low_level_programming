@@ -13,4 +13,5 @@ printf("%d", s);
 s++;
 } while (s < 10);
 printf("\n");
+return (0);
 }
