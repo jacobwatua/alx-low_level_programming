@@ -2,6 +2,8 @@
 /*
  * print_alphabet - The entry point
  *
+ * Description : Prints all the alphabets,
+ * in lower case
  * Return: no return value
 */
 void print_alphabet(void)
