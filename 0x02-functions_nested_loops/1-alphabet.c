@@ -1,10 +1,10 @@
 #include "main.h"
-/*
- * print_alphabet - The entry point
- *
- * Description: Prints all the alphabets,
- * in lower case
- * Return: no return value
+/**
+* print_alphabet - The main Entry point
+* @args - accepts no arguements
+*
+* Description: prints _putchar
+* Return: 0 if successful
 */
 void print_alphabet(void)
 {
