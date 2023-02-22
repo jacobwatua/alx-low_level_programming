@@ -1,21 +1,15 @@
-#include <main.h>
+#include "main.h"
 /*
- * main - The main entry point
- * @args: no arguements passed
+ * main - The entry point
  *
- * Description: Print alphabets from a-z in lowercase 10 times
- * Return: 0 if successful
+ * Return: no return value
 */
-int main(void)
+void print_alphabet(void)
 {
-int count;
 char start;
-for (count = 0 ; count < 10 ; count++)
-{
 for (start = 'a';  start <= 'z' ; start++)
 {
 _putchar(start);
 }
 _putchar('\n');
-}
 }
