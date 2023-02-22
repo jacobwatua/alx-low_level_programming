@@ -3,7 +3,7 @@
  * print_alphabet_x10 - print alphabets 
  * @args: none
  *
- *Description: prints _putchar
+ * Description: prints _putchar
  * Return: no return value
 */
 void print_alphabet_x10(void)
@@ -19,3 +19,4 @@ _putchar(start);
 _putchar('\n');
 }
 }
+
