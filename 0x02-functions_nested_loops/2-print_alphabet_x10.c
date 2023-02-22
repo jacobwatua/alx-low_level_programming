@@ -3,10 +3,10 @@
  * print_alphabet_x10 - print alphabets 
  * @args: none
  *
- * Description: Print a-z 10 times
+ *Description: prints _putchar
  * Return: no return value
 */
-void print_alphabet_x10 (void)
+void print_alphabet_x10(void)
 {
 int count;
 char start;
