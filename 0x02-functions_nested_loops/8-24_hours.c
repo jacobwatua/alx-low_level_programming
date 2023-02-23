@@ -8,22 +8,14 @@
  * Description: prints every minute and hiur of a tough day
  * Return: no return value
 */
-void jack_bauer(void)
+void jack_bauer()
 {
-int hour_max, minute_max;
-for (hour_max = 0; hour_max < 24; hour_max++)
+int hour, minute;
+for (hour = 0; hour < 24; hour++)
 {
-for (minute_max = 0; minute_max < 60; minute_max++)
+for (minute = 0; minute < 60; minute++)
 {
-if (minute_max < 10 || hour_max < 10)
-{
-printf("0%d:0%d", hour_max, minute_max);
-}
-else
-{
-printf("%d:%d", hour_max, minute_max);
-}
-printf("%c", '\n');
+printf("%02d:%02d\n", hour, minute);
 }
 }
 }
