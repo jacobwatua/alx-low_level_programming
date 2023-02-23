@@ -8,7 +8,7 @@
  * Description: prints every minute and hiur of a tough day
  * Return: no return value
 */
-void jack_bauer()
+void jack_bauer(void)
 {
 int hour, minute;
 for (hour = 0; hour < 24; hour++)
