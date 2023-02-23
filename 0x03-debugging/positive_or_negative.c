@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include "main.h"
 
-/* betty style doc for function main goes there */
 /**
-* main - The ebtry poin
-* @args - no arguemants passed to the function (void function)
+* positive_or_negative - The ebtry poin
+* @i: accepts one arguement, an integer
 *
 * Description: Checks if a number is a positive, negative or zero
 * Return: 0 if successful
