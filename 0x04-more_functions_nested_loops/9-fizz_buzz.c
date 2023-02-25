@@ -3,31 +3,21 @@
  * main - entry point
  *
  * Print fizz and buzz for common divisers of 3 and 5
- * Return: no return value
+ * Return: retun 0
 */
+
 int main(void)
 {
 int i;
-for (i = 1; i < 101; i++)
+
+for (i = 1; i <= 100; i++)
 {
-if (i % 3 == 0 && i % 5 == 0)
-{
-printf("%s", "FizzBuzz ");
-continue;
+(i % 3 == 0) ? printf("Fizz") : 0;
+(i % 5 == 0) ? printf("Buzz") : 0;
+(i % 3 != 0 && i % 5 != 0) ? printf("%d", i) : 0;
+(i != 100) ? printf(" ") : 0;
 }
-if (i % 3 == 0 && i % 5 != 0)
-{
-printf("%s", "Fizz ");
-continue;
-}
-if (i % 3 != 0 && i % 5 == 0)
-{
-printf("%s", "Buzz ");
-continue;
-}
-printf("%d ",  i);
-}
-printf("%c", '\n');
+printf("\n");
 return (0);
 }
 
