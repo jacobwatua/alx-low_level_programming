@@ -7,7 +7,6 @@
     int _strcmp(char *s1, char *s2);
     static void _swap(int *a, int *b);
     void reverse_array(int *a, int n);
-    static int _islower(int c);
     char *string_toupper(char *s);
 #endif
 
