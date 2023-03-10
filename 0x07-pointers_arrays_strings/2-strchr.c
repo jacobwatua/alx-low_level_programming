@@ -16,5 +16,6 @@ return (s);
 }
 s++;
 }
+return (s);
 }
 
