@@ -1,0 +1,24 @@
+#include "main.h"
+#include <math.h>
+
+/**
+ * int _pow_recursion -Function name
+ * @x: int arg to be raised to power y
+ * @y: exponent
+ *
+ * Return: the value of x raised to the power of y.
+*/
+
+int _pow_recursion(int x, int y)
+{
+if (y < 0)
+{
+return (-1);
+} else if (y == 0)
+{
+return (1);
+} else
+{
+return (x * _pow_recursion(x, y - 1));
+}
+}
