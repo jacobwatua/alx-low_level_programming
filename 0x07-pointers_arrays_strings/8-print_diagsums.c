@@ -22,6 +22,6 @@ for (i = size - 1; i < size * size - 1; i += size - 1)
 {
 sum2 += a[i];
 }
-printf(%d, %dn, sum1,  sum2);
+printf("%d, %d\n", sum1,  sum2);
 }
 
