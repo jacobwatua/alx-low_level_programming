@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * int _pow_recursion -Function name
+ * _pow_recursion -Function name
  * @x: int arg to be raised to power y
  * @y: exponent
  *
@@ -14,10 +14,12 @@ int _pow_recursion(int x, int y)
 if (y < 0)
 {
 return (-1);
-} else if (y == 0)
+}
+else if (y == 0)
 {
 return (1);
-} else
+}
+else
 {
 return (x * _pow_recursion(x, y - 1));
 }
