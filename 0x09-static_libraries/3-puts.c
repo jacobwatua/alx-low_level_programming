@@ -16,5 +16,7 @@ while (*s)
 putchar(*s);
 s++;
 }
+putchar('\n');
 }
 }
+
