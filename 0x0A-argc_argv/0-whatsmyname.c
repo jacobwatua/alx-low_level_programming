@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - print the program's name
- * @argc - number of args
- * @argv -  command line arguments
+ * @argc:  number of args
+ * @argv:  command line arguments
  *
- * Return - 0
+ * Return: 0
 */
 
 int main(int argc, char *argv[])
